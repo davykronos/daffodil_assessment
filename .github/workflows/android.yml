@@ -39,7 +39,7 @@ jobs:
       with:
         args: --follow-symlinks --delete
       env:
-        AWS_S3_BUCKET: muditbucketdaffodil  # replace with your S3 bucket name
+        AWS_S3_BUCKET: muditbucketdaffodil  # reeplace with your S3 bucket name
         SOURCE_DIR: app/build/outputs/apk/release/  # replace with the directory to your APK file
         
     # - name: SonarCloud Scan
